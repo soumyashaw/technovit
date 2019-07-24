@@ -62,7 +62,10 @@ body {
 	position: relative;
 	height: 100vh;
 }
-
+.separation {
+    height: 200px;
+    width: auto;
+    }
 .title {
 	font-size: 42px;
 	line-height: normal;
@@ -75,8 +78,8 @@ body {
 	transform: translateY(-50%);
 	padding: 0 20px;
 	margin: 0;
-	left: 0;
-	right: 0;
+	left: 50px;
+	right: 0%;
 	z-index: 1;
 	text-align: center;
 	animation-name: glitch-anim-text;
@@ -422,6 +425,32 @@ body {
 }
 
 </style>
+<!-- CSS -->
+        <link href="css/loader.css" rel="stylesheet" type="text/css">
+        <!--<link href="css/normalize.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="assets/demo.css">
+        <link rel="stylesheet" href="assets/navigation-icons.css">
+        <link rel="stylesheet" href="assets/slicknav/slicknav.min.css">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">-->
+
+        <!--[if lt IE 9]>
+            <link rel="stylesheet" type="text/css" href="css/ie.css" />
+        <![endif]-->
+        <!-- Javascript -->
+
+        <script src="js/jquery.js"></script>
+<!--
+<div class="preloader">
+            <div class="loading">
+                <h2>
+                    Loading...
+                </h2>
+                <span class="progress"></span>
+            </div>
+        </div>
+-->
 
 <div class="glitch-demo">
 	<div class="glitch">
@@ -431,9 +460,14 @@ body {
 		<div class="glitch__img"></div>
 		<div class="glitch__img"></div>
 	</div>
+    <div class="separation"></div>
 	<h2 class="title">Service Not Yet Started!</h2>
 </div>
 
 <div class="credit">
 
 </div>
+<!-- Javascript -->
+        <script src="js/plugins.js"></script>
+        <script src="js/jquery.countdown.min.js"></script>
+        <script src="js/main.js"></script>
